@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="singup1.css">
+    <script type="text/javascript" src="js.js"></script>
+    <style>
+           
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto&display=swap');
+        
+                    </style>
+    <title>sign up</title>
+</head>
+<body>
+    <div
+    style="width: 378px; height: 98px; left: 0px; top: 28px; position: absolute; text-align: center; color: #397A4C; font-size: 40px; font-family: Inter; font-weight: 600; word-wrap: break-word">
+    AgroSolutions</div>
+
+<div >
+    <form action="Test.php" method="post" >
+        <h2>Create an account</h2>
+
+        <label for="ncin">NCIN:</label>
+        <input type="text" id="ncin" name="ncin" required placeholder="donner votre ncin" >
+
+        <label for="nom">First Name:</label>
+        <input type="text" id="nom" name="nom" required placeholder="donner votre nom" > 
+
+        <label for="prenom">Last Name:</label>
+        <input type="text" id="prenom" name="prenom" required placeholder="donner votre prenom" >
+
+        <label for="region">Region:</label>
+        <select name="governorate" >
+            <option value="Tunis">Tunis</option>
+            <option value="Nabeul">Nabeul</option>
+            <option value="Bizerte">Bizerte</option>
+            <option value="Ariana">Ariana</option>
+            <option value="Ben Arous">Ben Arous </option>
+            <option value="Gabes">Gabes</option>
+            <option value="Gafsa">Gafsa</option>
+            <option value="Jendouba">Jendouba</option>
+            <option value="Kairouan">Kairouan</option>
+            <option value="Kasserine">Kasserine</option>
+            <option value="Kébili">Kébili</option>
+            <option value="Kef">Kef</option>
+            <option value="Mahdia">Mahdia</option>
+            <option value="Manouba">Manouba</option>
+            <option value="Médenine">Médenine</option>
+            <option value="Monastir">Monastir</option>
+            <option value="Sfax">Sfax</option>
+            <option value="Sidi Bouzid">Sidi Bouzid</option>
+            <option value="Siliana">Siliana</option>
+            <option value="Sousse">Sousse</option>
+            <option value="Tataouine">Tataouine</option>
+            <option value="Tozeur">Tozeur</option>
+            <option value="Zaghouan">Zaghouan</option></select>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="donner votre email">
+
+        <label for="mpass">Password</label>
+        <input type="password" id="mpass" name="mpass" required placeholder="donner votre mot de pass">
+        <label for="mpass">Confirm Password </label>
+        <input type="password" id="mpassc" name="mpassc" required placeholder="donner votre mot de pass">
+
+        <input type="submit" value="Envoyer" onclick="verif1()" class="btn">
+    </form></div>
+
+</body>
+</html>

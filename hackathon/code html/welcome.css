@@ -1,0 +1,106 @@
+
+body{
+    background: #BEDB92;
+}
+
+
+.image{
+    width: 850px;
+     height: 800px;
+     left: 0px; 
+    top: 0px;
+    position: absolute
+}
+.logo{
+    width: 378px;
+     height: 98px;
+     left: 850px; 
+    top: 46px; 
+    position: absolute;
+     text-align: center;
+     color: #397A4C;
+     font-size: 40px;
+      font-family: Inter; 
+     font-weight: 600; 
+     word-wrap: break-word
+}
+.intro{
+    width: 558px; 
+    height: 116px;
+     left: 930px;
+      top: 260px; 
+      position: absolute; 
+      text-align: center; 
+      color: white; 
+      font-size: 40px; 
+      font-family: Inter; 
+      font-weight: 600;
+       word-wrap: break-word
+}
+.intro1{
+    width: 558px;
+    margin-top:125px; 
+    height: 200px;
+     left: 930px;
+      top: 283px; 
+      position: absolute; 
+      text-align: center; 
+      color: white; 
+      font-size: 40px; 
+      font-family: Inter; 
+      font-weight: 600;
+       word-wrap: break-word
+}
+.button1{
+    width: 164px;
+    height: 64px;
+    left: 960px; 
+    top: 570px;
+    position: absolute; 
+     background: #77C063; 
+    border-radius: 7px;
+}
+.button2{
+    width: 164px;
+     height: 64px;
+    left: 1260px;
+     top: 570px; position: absolute;
+     background: #77C063; 
+     border-radius: 7px;
+}
+.start{
+    width: 148px;
+     height: 46px;
+      left: 968px; 
+      top: 588px;
+       position: absolute; 
+       text-align: center; 
+       color: white; 
+       font-size: 28px;
+        font-family: Inter;
+         font-weight: 600;
+          line-height: 28px;
+           word-wrap: break-word;
+}
+.signin{
+    width: 138px;
+     height: 42px; 
+     left: 1270px;
+      top: 588px; 
+      position: absolute;
+       text-align: center; 
+       color: white;
+        font-size: 28px; 
+        font-family: Inter; 
+        font-weight: 600; 
+        line-height: 28px;
+     word-wrap: break-word
+}
+
+
+
+
+
+
+
+
